@@ -21,7 +21,7 @@ $row = mysqli_fetch_assoc($result);
            
             <tr><td>Nim</td><td><input type="text" name="nim2" value="<?php echo $row["nim"]; ?>" disabled>
                       <input type="hidden" name="nim" value="<?php echo $row["nim"]; ?>"></td></tr>
-                       <tr><td>cerita</td><td><textarea name="cerita"></textarea></td></tr>
+                       <tr><td>cerita</td><td><textarea name="cerita" rows=20 cols=80></textarea></td></tr>
                         <tr><td>Foto
         <td><input type="file" name="dokumen" required>
         </td></td></td></tr>
